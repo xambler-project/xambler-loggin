@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.obelixdev.core.service.loggin;
+package com.obelixdev.core.bussines.service.loggin;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

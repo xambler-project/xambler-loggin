@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.obelixdev.core.service.loggin;
+package com.obelixdev.core.bussines.service.loggin;
 
 import javax.ws.rs.core.Response;
 
@@ -14,6 +14,9 @@ import org.springframework.stereotype.Service;
 
 @Service("logginService")
 public class LogginService implements ILogginService {
+	
+	
+	
 
 	@Override
 	public Response getUserLoggin(String pass, String user) {
